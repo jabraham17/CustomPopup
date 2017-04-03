@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomPopup_Example' do
+  pod 'CustomPopup', :path => '../'
+
+  target 'CustomPopup_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
