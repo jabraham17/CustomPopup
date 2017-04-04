@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomPopup'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomPopup.'
+  s.summary          = 'Create custom popups that are customized to your specifications'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod allows you to create custom popups that function in the same way as a UIAlertController but allow for more customization.
                        DESC
 
-  s.homepage         = 'https://github.com/JBraham/CustomPopup'
+  s.homepage         = 'https://github.com/jacob-abraham/CustomPopup'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'JBraham' => 'jacob.r.abraham@gmail.com' }
-  s.source           = { :git => 'https://github.com/JBraham/CustomPopup.git', :tag => s.version.to_s }
+  s.author           = { 'jacob-abraham' => 'jacob.r.abraham@gmail.com' }
+  s.source           = { :git => 'https://github.com/jacob-abraham/CustomPopup.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'CustomPopup/Classes/**/*'
   
